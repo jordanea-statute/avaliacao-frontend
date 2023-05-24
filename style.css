@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background-color: rgb(233, 233, 233);
+    color: whitesmoke;
+    font-family: "Ysabeu";
+}
+
+.title{
+    height: 80px;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo{
+    display: flex;
+    margin: 4rem;
+}
+
+.about-me{
+    color: black;
+    margin: 2rem;
+}
+
+section{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+section p{
+    font-size: 15pt;
+    font-family: "Ysabeu";
+    margin: 4rem;
+}
+
+footer h1{
+    color: black;
+    margin: 2rem;
+}
+
+address{
+    height: 120px;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copyrigth p{
+    color: black;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+
+}

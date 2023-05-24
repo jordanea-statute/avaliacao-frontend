@@ -13,6 +13,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: lato;
+    font-size: 25pt;
 }
 
 .photo{
@@ -23,6 +25,8 @@ body{
 .about-me{
     color: black;
     margin: 2rem;
+    font-family: lato;
+    font-size: 25pt;
 }
 
 section{
@@ -37,10 +41,39 @@ section p{
     font-family: "Ysabeu";
     margin: 4rem;
 }
-
-footer h1{
+.curiosity{
     color: black;
     margin: 2rem;
+    font-family: lato;
+    font-size: 25pt;
+}
+.photo-lua{
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: cover;
+    
+}
+.photo-rihanna{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.presentation{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    font-family: "Ysabeu";
+    margin: 4rem;
+
+}
+.more-about-me{
+    color: black;
+    margin: 2rem;
+    font-family: lato;
+    font-size: 25pt;
 }
 
 address{

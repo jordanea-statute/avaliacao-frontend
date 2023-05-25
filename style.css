@@ -19,7 +19,12 @@ body{
 
 .photo{
     display: flex;
-    margin: 4rem;
+    justify-content: space-around;
+    padding-top: 40px;  
+}
+.imagem-intelectual{
+    opacity: 0.4;
+    border-style: initial;
 }
 
 .about-me{
@@ -29,35 +34,42 @@ body{
     font-size: 25pt;
 }
 
-section{
+.text-page  {
     height: 300px;
     width: 100%;
     background-color: black;
     display: flex;
 }
 
-section p{
+.text-page p{
     font-size: 15pt;
     font-family: "Ysabeu";
     margin: 4rem;
 }
+
 .curiosity{
     color: black;
     margin: 2rem;
     font-family: lato;
     font-size: 25pt;
 }
+
+section{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
 .photo-lua{
     display: flex;
-    justify-content: space-evenly;
-    object-fit: cover;
-    
+    padding: 20px;   
 }
+
 .photo-rihanna{
     display: flex;
-    justify-content: space-evenly;
-    
+    padding: 20px;
 }
+
 .presentation{
     background-color: black;
     height: 50px;

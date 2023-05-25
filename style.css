@@ -19,12 +19,9 @@ body{
 
 .photo{
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;  
-}
-.imagem-intelectual{
-    opacity: 0.4;
-    border-style: initial;
+    padding-top: 30px;  
+    margin: 4rem;
+    height: 300px;
 }
 
 .about-me{
@@ -51,7 +48,7 @@ body{
     color: black;
     margin: 2rem;
     font-family: lato;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 section{
@@ -72,24 +69,25 @@ section{
 
 .presentation{
     background-color: black;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15pt;
     font-family: "Ysabeu";
-    margin: 4rem;
+   
 
 }
 .more-about-me{
     color: black;
     margin: 2rem;
     font-family: lato;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 address{
-    height: 120px;
+    height: 100px;
     width: 70%;
     background-color: black;
     display: flex;

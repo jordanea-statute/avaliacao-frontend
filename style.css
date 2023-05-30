@@ -76,9 +76,8 @@ section{
     align-items: center;
     font-size: 15pt;
     font-family: "Ysabeu";
-   
-
 }
+
 .more-about-me{
     color: black;
     margin: 2rem;
@@ -94,6 +93,7 @@ address{
     justify-content: space-around;
     align-items: center;
 }
+
 .copyrigth p{
     color: black;
     opacity: 0.3;
